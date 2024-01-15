@@ -2,7 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: my-kubernetes-component
-  backstage.io/kubernetes-id: my-kubernetes
+  annotations:
+    backstage.io/kubernetes-id: my-kubernetes
 spec:
   lifecycle: production
   owner: my-team
