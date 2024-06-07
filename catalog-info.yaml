@@ -14,5 +14,5 @@ metadata:
     - mobile
 spec:
   lifecycle: production
-  owner: my-team
+  owner: team_a
   type: service
