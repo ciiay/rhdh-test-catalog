@@ -2,7 +2,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: java-quarkus-starter
+  name: backstage-kubernetes-example
   annotations:
     github.com/project-slug: ciiay/backstage-kubernetes-example
 spec:
