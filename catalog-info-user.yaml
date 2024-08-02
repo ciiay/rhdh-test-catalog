@@ -1,0 +1,32 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: rhdh-ui-test
+  description: The RHDH UI test group
+spec:
+  type: team
+  profile:
+    displayName: RHDH UI test
+    email: yicai@redhat.com
+  children: []
+  members: [ciiay, rhdh-yi]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: ciiay
+spec:
+  profile:
+    # Intentional no displayName for testing
+    email: yicai@redhat.com
+  memberOf: [rhdh-ui-test]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: rhdh-yi
+spec:
+  profile:
+    # Intentional no displayName for testing
+    email: rhdh.yi.test@gmail.com
+  memberOf: [rhdh-ui-test]
