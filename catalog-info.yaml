@@ -1,20 +1,12 @@
+---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: my-kubernetes-component
-  namespace: default
+  name: backstage-kubernetes-example
   annotations:
-    backstage.io/kubernetes-id: my-kubernetes-component
-    janus-idp.io/tekton: my-kubernetes-component
-    # backstage.io/kubernetes-label-selector: 'app=my-app,component=front-end'
-    jenkins.io/job-full-name: 'default:orgnew/test'
-    backstage.io/kubernetes-auth-provider: serviceAccount
-  labels:
-    backstage.io/kubernetes-id: my-kubernetes-component
-  tags:
-    - java
-    - mobile
+    github.com/project-slug: ciiay/backstage-kubernetes-example
 spec:
-  lifecycle: production
-  owner: team_a
-  type: service
+  type: other
+  lifecycle: unknown
+  owner: ciiay
+---
