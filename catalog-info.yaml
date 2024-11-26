@@ -19,5 +19,5 @@ metadata:
     - mobile
 spec:
   lifecycle: production
-  owner: team_a
+  owner: rhdh-ui-test
   type: service
