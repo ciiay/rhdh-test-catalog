@@ -12,6 +12,7 @@ metadata:
     # backstage.io/kubernetes-label-selector: 'backstage.io/kubernetes-id=my-kubernetes-component'
     jenkins.io/job-full-name: 'default:orgnew/test'
     backstage.io/kubernetes-auth-provider: serviceAccount
+    janus-idp.io/tekton-pipelinerun: my-kubernetes-component-pipelinerun
   labels:
     backstage.io/kubernetes-id: my-kubernetes-component
   tags:
