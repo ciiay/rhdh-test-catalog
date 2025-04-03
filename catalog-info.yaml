@@ -13,7 +13,7 @@ metadata:
     jenkins.io/job-full-name: 'default:orgnew/test'
     backstage.io/kubernetes-auth-provider: serviceAccount
     janus-idp.io/tekton-pipelinerun: my-kubernetes-component-pipelinerun
-    nexus-repository-manager/docker.image-name: 'janus-idp/backstage-showcase'
+    nexus-repository-manager/docker.image-name: 'nexus-docker/nexus3'
   labels:
     backstage.io/kubernetes-id: my-kubernetes-component
   tags:
