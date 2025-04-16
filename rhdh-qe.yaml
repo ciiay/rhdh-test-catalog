@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: rhdh-qe
+spec:
+  profile:
+    displayName: RHDH QE
+    email: rhdh-qe@redhat.com
+  memberOf: [rhdh-team]
