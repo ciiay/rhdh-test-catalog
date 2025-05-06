@@ -18,6 +18,7 @@ metadata:
 spec:
   profile:
     # Intentional no displayName for testing
+    displayName: Yi Cai
     email: yicai@redhat.com
   memberOf: [rhdh-ui-test]
 ---
