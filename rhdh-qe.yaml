@@ -5,6 +5,6 @@ metadata:
   title: rhdh-qe-entity-title
 spec:
   profile:
-    displayName: RHDH QE
+    # displayName: RHDH QE
     email: rhdh-qe@redhat.com
   memberOf: [rhdh-team]
