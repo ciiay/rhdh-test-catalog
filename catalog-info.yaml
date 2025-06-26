@@ -14,6 +14,7 @@ metadata:
     backstage.io/kubernetes-auth-provider: serviceAccount
     janus-idp.io/tekton-pipelinerun: my-kubernetes-component-pipelinerun
     nexus-repository-manager/docker.image-name: 'nexus-docker/nexus3'
+    servicenow.com/entity-id: website-for-my-nice-service
   labels:
     backstage.io/kubernetes-id: my-kubernetes-component
   tags:
