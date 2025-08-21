@@ -15,6 +15,7 @@ metadata:
     janus-idp.io/tekton-pipelinerun: my-kubernetes-component-pipelinerun
     nexus-repository-manager/docker.image-name: 'nexus-docker/nexus3'
     servicenow.com/entity-id: my-kubernetes-component
+    npm/package: react
   labels:
     backstage.io/kubernetes-id: my-kubernetes-component
   tags:
