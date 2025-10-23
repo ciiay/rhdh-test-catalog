@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: app-taxi
+  description: "Taxi service deployed to the 'dev' namespace and managed by Argo CD."
+  annotations:
+    # Show this Argo CD Application on the Backstage Argo CD tab
+    argocd/app-name: argo-app
+
+    # Let the Kubernetes plugin find your K8s resources by label/namespace
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/part-of=app-taxi
+    backstage.io/kubernetes-namespace: dev
+spec:
+  type: service
+  owner: user:default/ciiay
+  lifecycle: production
