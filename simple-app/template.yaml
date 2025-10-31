@@ -2,10 +2,10 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
   name: simple-app-template
-  title: Simple App Template (v1)
+  title: Simple App Template (v2)
   description: Simple test template to verify version notification feature
   annotations:
-    backstage.io/version: v1.0.1
+    backstage.io/version: v2.0.0
 spec:
   owner: group:default/platform-team
   type: service
@@ -29,6 +29,14 @@ spec:
       action: debug:log
       input:
         message: "Created service ${{ parameters.name }} from v1 template"
+    - id: changelog
+      name: Add changelog file
+      action: fs:write
+      input:
+        files:
+          - path: CHANGELOG.md
+            contents: |
+              Created with v2 of the template.
   output:
     links:
       - title: Repo
