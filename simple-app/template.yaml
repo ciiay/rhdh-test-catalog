@@ -29,14 +29,11 @@ spec:
       action: debug:log
       input:
         message: "Created service ${{ parameters.name }} from v1 template"
-    - id: changelog
-      name: Add changelog file
-      action: fs:write
-      input:
-        files:
-          - path: CHANGELOG.md
-            contents: |
-              Created with v2 of the template.
+    - id: record-template-version
+      name: Record template version on generated entity
+      action: catalog:template:version
+      input: {}
+
   output:
     links:
       - title: Repo
