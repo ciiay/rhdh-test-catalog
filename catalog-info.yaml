@@ -2,9 +2,9 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: my-kubernetes-component
-  namespace: default
+  namespace: yi-helm
   annotations:
-    backstage.io/kubernetes-namespace: default
+    backstage.io/kubernetes-namespace: yi-helm
     backstage.io/kubernetes-id: my-kubernetes-component
     janus-idp.io/tekton: my-kubernetes-component
     janus-idp.io/tekton-pipeline: simple-pipeline
