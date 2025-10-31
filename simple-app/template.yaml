@@ -2,10 +2,10 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
   name: simple-app-template
-  title: Simple App Template (v2)
+  title: Simple App Template (v1)
   description: Simple test template to verify version notification feature
   annotations:
-    backstage.io/version: v2.0.0
+    backstage.io/template-version: v1.0.0
 spec:
   owner: group:default/platform-team
   type: service
