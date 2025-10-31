@@ -5,7 +5,7 @@ metadata:
   title: Simple App Template (v1)
   description: Simple test template to verify version notification feature
   annotations:
-    backstage.io/version: v1.0.0
+    backstage.io/version: v1.0.1
 spec:
   owner: group:default/platform-team
   type: service
@@ -22,7 +22,7 @@ spec:
       name: Fetch skeleton
       action: fetch:template
       input:
-        url: https://github.com/backstage/software-templates/tree/master/scaffolder-templates/skeleton
+        url: https://github.com/backstage/software-templates/tree/main/scaffolder-templates/create-react-app/skeleton
         targetPath: ./
     - id: log
       name: Log
